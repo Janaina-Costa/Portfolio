@@ -10,7 +10,18 @@ export const BallOne = styled.div`
         clip-path: circle();
         background: linear-gradient(146.05deg, #F1CAD8 13.89%, rgba(253, 213, 227, 0) 86.42%);
         filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.25));    
+        /* animation: ball 5s ease-in-out reverse  ;
 
+        @keyframes ball{
+        from{
+             width :15rem ;
+             right:-1rem ;
+        }
+        to{
+             left:100rem;
+             width: 27rem;
+        }
+        } */
 
 `
 export const BallTwo = styled.div`
@@ -25,6 +36,19 @@ export const BallTwo = styled.div`
         
         background: linear-gradient(223.35deg, rgba(255, 255, 255, 0.2) 16.81%, rgba(255, 255, 255, 0.032) 87.24%), linear-gradient(318.54deg, #83D5F0 26.75%, rgba(253, 213, 227, 0) 97.42%);
         box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+
+        /* animation: ballwidth 5s ease-in-out 2s alternate ;
+
+        @keyframes ballwidth{
+                from{
+                        width:50rem;
+                }
+                to{
+                        width: 60rem;
+                }
+        } */
+
+
 
 
 `
