@@ -28,6 +28,9 @@ export const GlobalStylle = createGlobalStyle`
     button{
         cursor: pointer;
     }
+    a{
+        text-decoration: none;
+    }
     
     body, button, input, textarea, h1, h2, h3, h4, h5, h6,p{
     /*intervalo de tamanho da fonte conforme a rela*/

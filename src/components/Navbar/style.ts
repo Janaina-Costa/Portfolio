@@ -23,9 +23,12 @@ export const Container = styled.nav`
         font-size:1rem;
     }
     .optionbar{
+        position: relative;
         color: #fff;
         display: none;
         font-size:2rem;
+        left: 250px;
+        cursor: pointer;
     }
 
     @media (max-width:958px){
