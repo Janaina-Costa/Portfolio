@@ -9,11 +9,12 @@ export const Navbar = ()=>{
                 <li><a href="#">Skils</a></li>
                 <li><a href="#">My Portfolio</a> </li>
                 <li><a href="#">Contacte me</a></li>
+                <li className="optionbar">
+                    <CgMenu width={450} />
+                </li>
+
             </ul>
 
-            <div className="optionbar">
-                <CgMenu width={450} />
-            </div>
         </S.Container>
     )
 }

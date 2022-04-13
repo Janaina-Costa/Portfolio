@@ -3,14 +3,15 @@ import * as S from './style'
 import { About } from "../../components/About"
 import { ContentMain } from "../../components/ContentMain"
 import { Skills } from "../../components/Skills"
+import { Glass } from "../../components/Glass"
 
 export const Main = ()=>{
     return(
         <S.Container>
-            <S.Wrapper>            
-               <Navbar/>
+            <Glass>            
+                <Navbar/>
                 <ContentMain/>    
-        </S.Wrapper>
+            </Glass>
 
         <About/>
         

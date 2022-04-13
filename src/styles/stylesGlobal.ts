@@ -35,6 +35,19 @@ export const GlobalStylle = createGlobalStyle`
     body, button, input, textarea, h1, h2, h3, h4, h5, h6,p{
     /*intervalo de tamanho da fonte conforme a rela*/
     font-size:clamp(14px 1.6rem 2vw);
+
+    .title{
+       
+        margin-bottom: 4rem;
+        /* border: 2px solid #fff; */
+        padding:1rem 4rem;
+        /* box-shadow: 0px 0px 10px 2px #fff; */
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border-radius: 0.625rem;
+        color: #fff;
+        font-weight: 400;
+    
+    }
    
 }
 

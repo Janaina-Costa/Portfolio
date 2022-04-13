@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import avatar from '../../assets/img/avatar.svg'
+
 
 export const Container = styled.div`
     width:100% ;
@@ -77,6 +77,13 @@ export const Container = styled.div`
         }
 
     }
+
+    @media (min-width: 522px){
+        .apresentation{
+            flex-direction: row;
+        }
+    }
+
     
 
 `

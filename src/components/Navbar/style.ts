@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Container = styled.nav`
     display: flex;
-    
+    position: relative;
     width: min(90%);
     padding: 1.5rem;
     
@@ -23,20 +23,22 @@ export const Container = styled.nav`
         font-size:1rem;
     }
     .optionbar{
-        position: relative;
+      
         color: #fff;
         display: none;
-        font-size:2rem;
-        left: 250px;
-        cursor: pointer;
+        font-size:2rem;        
+        
     }
 
-    @media (max-width:958px){
-       ul{
+    @media (max-width:893px){
+       li{
            display: none;
        }
         .optionbar{
+            position: relative;
             display: block;
+            justify-content:flex-end;
+            cursor: pointer;
         }
     }
 
